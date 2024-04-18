@@ -29,23 +29,26 @@ menuIcon.onclick = () => {
 // scroll reveal 
 const sr = ScrollReveal({
 	distance: '30px',
-	duration: 1800,
+	duration: 1200,
 	reset: true,
 });
 
 sr.reveal(`.top`, {
 	origin: 'top',
-	interval: 200,
+	interval: 100,
 })
 
 sr.reveal(`.bottom`, {
-	origin: 'bottom'
+	origin: 'bottom',
+	interval: 100,
 })
 
 sr.reveal(`.left`, {
-	origin: 'left'
+	origin: 'left',
+	interval: 100,
 })
 
 sr.reveal(`.right`, {
-	origin: 'right'
+	origin: 'right',
+	interval: 100,
 })
