@@ -37,18 +37,3 @@ sr.reveal(`.top`, {
 	origin: 'top',
 	interval: 100,
 })
-
-sr.reveal(`.bottom`, {
-	origin: 'bottom',
-	interval: 100,
-})
-
-sr.reveal(`.left`, {
-	origin: 'left',
-	interval: 100,
-})
-
-sr.reveal(`.right`, {
-	origin: 'right',
-	interval: 100,
-})
