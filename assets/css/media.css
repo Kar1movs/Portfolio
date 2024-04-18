@@ -1,0 +1,190 @@
+@media screen and (max-width: 1200px) {
+	.home {
+		gap: 4rem;
+	}
+}
+
+
+@media screen and (max-width: 992px) {
+
+	.header {
+		padding: 2rem 9%;
+	}
+
+	#menu-icon {
+		display: block;
+	}
+
+	.navbar {
+		position: absolute;
+		top: 100%;
+		right: 0;
+		width: 40%;
+		border-left: 3px solid var(--main-color);
+		border-bottom: 3px solid var(--main-color);
+		border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+		border-bottom-left-radius: 2rem;
+		padding: 1rem 3%;
+		background-color: var(--second-bg-color);
+		display: none;
+	}
+
+	.navbar.active {
+		display: block;
+	}
+
+	.navbar a {
+		display: block;
+		font-size: 2rem;
+		margin: 3rem 0;
+	}
+
+	.navbar a:hover,
+	.navbar a.active {
+		padding: 1rem;
+		border-radius: 0.5rem;
+		border-bottom: 0.5rem solid var(--main-color);
+	}
+
+	.home {
+		flex-direction: column;
+		margin: 5rem 4rem;
+	}
+
+	.home .home-content h3 {
+		font-size: 2.5rem;
+	}
+
+	.home-content {
+		font-size: 5rem;
+	}
+
+	.home-img img {
+		width: 70vw;
+		margin-top: 4rem;
+	}
+
+	.social-icon {
+		display: flex;
+		justify-content: center;
+	}
+
+	.button {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.skills .container {
+		width: 70%;
+	}
+
+	.skills .container .row {
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.heading {
+		display: block;
+	}
+
+	.projects .content .box {
+		display: block;
+	}
+	
+	.projects .content {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.project {
+		width: 70%;
+	}
+
+	.info-projects {
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+	.header {
+		padding: 1.3rem 9%;
+	}
+
+	.skills {
+		background: var(--bg-color);
+		min-height: 50vh;
+		padding: 0 9% 5rem;
+	}
+
+	.skills .container {
+		width: 70%;
+	}
+
+	.skills .container .row {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.skills-logo {
+		width: 40px;
+	}
+
+	.footer .content {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+
+	.copyright {
+		font-size: 1.8rem;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 576px) {
+
+	.header {
+		padding: 1.5rem 9%;
+	}
+
+	.logo img {
+		width: 130px;
+	}
+
+	.skills .container {
+		width: 100%;
+	}
+
+	.skills .container .row {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.skills-logo {
+		width: 30px;
+	}
+
+	.skills .container .bar .info span {
+		font-size: 1.5rem;
+		font-weight: 700;
+		margin-left: 0.5rem;
+	}
+
+	.project {
+		width: 100%;
+	}
+
+	.project-btn {
+		font-size: 1rem;
+	}
+
+	.copyright {
+		font-size: 1.3rem;
+		text-align: center;
+	}
+}
+
+.border-main {
+	border: 1px solid var(--main-color);
+	padding: 2rem;
+	border-radius: 2rem;
+	width: 100%;
+	height: 100vh;
+}
